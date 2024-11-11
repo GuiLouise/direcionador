@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;    
+}
+
+body{
+    margin: 0 auto;
+    text-align: center;
+    background-size: contain;
+    border: 1px solid black;
+    background-color: rgb(44, 45, 48);
+    width: 720px;
+    height: 1280px;
+}
+
+header{
+    width: 100%;
+    height: 20%;
+
+
+}
+
+.perfil{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 0 auto;
+
+}
+
+.foto{
+    align-content: center;
+
+}
+
+.foto img{
+    margin:0 40px;
+    justify-self: left;
+    width: 150px;
+    height: auto;
+
+
+}
+
+.dados{
+    align-content: center;
+}
+
+.dados h1{
+    font-family: Quicksand;
+    font-size:65px;
+    font-weight: 100;
+    text-align: right;
+    color: white;
+}
+
+.dados h2{
+    font-size: 40px;
+    font-weight: 100;
+    text-align: right;
+    font-family: Quicksand;
+    color: aliceblue;
+}
+
+
+
+main{
+
+    height: 60%;
+    align-content: center;
+}
+
+.chamada{
+    margin: 50px auto;
+    height: 50px;
+    align-content: center;
+}
+
+.chamada h1{
+    color: rgb(187, 187, 187);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.chamada h2{
+    color: rgb(177, 177, 177);
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+    height: 650px;
+    align-content: center;
+}
+
+.card{
+    margin-bottom: 50px;
+}
+
+.card img{
+    width: 50px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.card button{
+    margin: 0 auto;
+    height: 95px;
+    width: 70%;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(60deg, rgb(255, 123, 0), red);
+    cursor: pointer;
+}
+
+
+.card button h2{
+    font-family: Quicksand;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.motivos{
+    align-content: center;
+    margin: 20px auto;
+    justify-content: center;
+    height: 120px;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.219);
+    border-radius: 20px;
+}
+
+.motivos h2{
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    font-weight: 100;
+    width: 100%;
+    text-align: center;
+}
+
+footer{
+    height: 20%;
+    width: 75%;
+    margin: 0 auto;
+}
+
+footer h1, footer h2{
+    color: rgb(172, 167, 167);
+    font-weight: 100;
+
+}
+
+footer h1{
+    margin-top: 50px;
+    font-size: 23px;
+    font-weight: 100;
+}
+
+footer h2{
+    font-size: 20px;
+}
