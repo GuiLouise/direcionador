@@ -13,8 +13,9 @@ body{
     background-size: contain;
     border: 1px solid black;
     background-color: rgb(44, 45, 48);
-    width: 720px;
-    height: 1280px;
+    width: 100%;
+    max-width: 720px;
+    height: auto;
 }
 
 header{
